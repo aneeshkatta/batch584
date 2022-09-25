@@ -1,12 +1,12 @@
-dice1=$(( RANDOM%89+10 ))
+dice1=$(( RANDOM%7-1 ))
 echo $dice1
-dice2=$(( RANDOM%89+10 ))
+dice2=$(( RANDOM%7-1 ))
 echo $dice2
-dice3=$(( RANDOM%89+10 ))
+dice3=$(( RANDOM%7-1 ))
 echo $dice3
-dice4=$(( RANDOM%89+10 ))
+dice4=$(( RANDOM%7-1 ))
 echo $dice4
-dice5=$(( RANDOM%89+10 ))
+dice5=$(( RANDOM%7-1 ))
 echo $dice5
 sum=$(($dice1+$dice2+$dice3+$dice4+$dice5))
 echo " sum of random values of dice is $(( $sum ))"

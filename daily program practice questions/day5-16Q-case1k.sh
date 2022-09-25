@@ -1,29 +1,23 @@
 read -p " enter a number : " num
 
 case $num in
-i=$num
-$(( 1<i<10 )) )
 
+
+10)
 	echo "ten";
 
 	;;
+100)
+	echo "hundred"
+	;;
 
-"[100-11]")
-echo "hundred"
-;;
+1000)
+	echo "thousand"
+	;;
 
-[101-1000])
-echo "thousand"
-;;
-
-[1001-10000])
-echo "ten thousand"
-;;
-
-[10001-100000])
-echo "one lakh"
-;;
-
+1000)
+	echo "ten thousand"
+	;;
 
 *)
 echo "invalid"
